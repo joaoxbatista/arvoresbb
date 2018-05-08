@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="treant-js/Treant.css">
+</head>
+<body>
+
+	<canvas id="viewport" width="800" height="600"></canvas>
+	<script type="text/javascript" src="js/No.js"></script>
+	<script type="text/javascript">
+		
+		var c = document.getElementById("viewport");
+		var ctx = c.getContext("2d");
+		ctx.moveTo(0, 0);
+		// ctx.lineTo(200, 100);
+		// ctx.stroke();
+
+		ctx.font = "12px Arial";
+
+		no1 = new No(40, 40, 20);
+		no1.draw();
+
+		no2 = new No(100, 50, 20);
+		no2.draw();
+
+		// ctx.fillText("4", 46, 54);
+		// ctx.beginPath();
+		// ctx.arc(50, 50, 15, 0, 2 * Math.PI);
+		// ctx.stroke();	
+
+
+		// ctx.fillText("4", 96, 54);
+		// ctx.beginPath();
+		// ctx.arc(100, 50, 15, 0, 2 * Math.PI);
+		// ctx.stroke();
+
+	</script>
+</body>
+</html>
